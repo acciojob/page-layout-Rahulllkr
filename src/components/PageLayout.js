@@ -4,9 +4,9 @@ import React from "react";
 const PageLayout = ({ header, children, footer }) => {
   return (
     <div>
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer>{footer}</footer>
+        {header}
+        {children}
+        {footer}
     </div>
   );
 };
