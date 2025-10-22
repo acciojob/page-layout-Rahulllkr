@@ -5,7 +5,7 @@ import PageLayout from "./PageLayout";
 const App = () => {
   return (
     <>
-    <h1>Hello page layout</h1>
+    <h1> page layout yes </h1>
     <div>
         {/* Do not remove the main div */}
         <PageLayout
