@@ -4,7 +4,7 @@ import PageLayout from "./PageLayout";
 
 const App = () => {
   return (
-    <>
+    <div>
         {/* Do not remove the main div */}
         <PageLayout
           header={<h1>Welcome to my website</h1>}
@@ -12,7 +12,7 @@ const App = () => {
         >
           <p>This is the Content of my website.</p>
         </PageLayout>
-    </>
+    </div>
   );
 }
 
